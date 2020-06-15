@@ -1,0 +1,6 @@
+<% defaults = Redmine::Plugin::registered_plugins[:sidebar_hide].settings[:default] %>
+<p>
+  <label><%= l(:setting_hide_by_default) %></label>
+  <%= hidden_field_tag 'settings[hide_by_default]', settings['hide_by_default'] || defaults['hide_by_default'] %>
+  <%= check_box_tag('settings[hide_by_default]', false, settings['hide_by_default']) %>
+</p>

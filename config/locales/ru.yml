@@ -1,0 +1,4 @@
+# English strings go here for Rails i18n
+ru:
+  button_title: "Скрыть/Показать боковую панель"
+  setting_hide_by_default: "Скрыть по умолчанию"

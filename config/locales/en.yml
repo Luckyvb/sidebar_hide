@@ -1,0 +1,4 @@
+# English strings go here for Rails i18n
+en:
+  button_title: "Hide/Show SideBar"
+  setting_hide_by_default: "Default is hidden"
